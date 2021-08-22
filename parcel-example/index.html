@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <script defer type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <form id="calcDate">
+      <h2>Калькулятор дат</h2>
+      <label for="dataFrom">
+        Первая дата:
+        <input type="date" name="dataFrom" id="dataFrom" />
+      </label>
+      <label for="dateTo">
+        Вторая дата:
+        <input type="date" name="dateTo" id="dateTo" />
+      </label>
+      <button type="submit">Рассчитать промежуток</button>
+    </form>
+    <p id="output"></p>
+  </body>
+</html>
